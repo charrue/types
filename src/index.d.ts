@@ -1,3 +1,4 @@
+export * from "./boolean/index";
 export * from "./array/index";
 export * from "./function/index";
 export * from "./object/index";

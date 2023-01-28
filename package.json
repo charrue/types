@@ -30,12 +30,18 @@
   },
   "devDependencies": {
     "@charrue/eslint-config-typescript": "latest",
+    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "@types/node": "^18.7.5",
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1",
+    "ts-expect": "^1.3.0",
     "typescript": "^4.8.3",
     "vitest": "latest"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
